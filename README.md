@@ -59,4 +59,4 @@ $ npm start
 # The server will start on port 3000 - access <http://localhost:3000>
 ```
 
-### Authors: [Lucas Vinicius Ribeiro](https://github.com/lucasvribeiro) e [Lucas Souza Santos](https://github.com/souzalucas).
+### Authors: [Lucas Vinicius Ribeiro](https://github.com/lucasvribeiro) and [Lucas Souza Santos](https://github.com/souzalucas).
