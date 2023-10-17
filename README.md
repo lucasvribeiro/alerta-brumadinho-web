@@ -2,64 +2,61 @@
 
 # Alerta Brumadinho - Solução Tecnológica para Denúncia de Crimes Ambientais em Brumadinho, Minas Gerais
 
-## Informações Gerais
-Este repositório contém o código-fonte do **front-end** do Alerta Brumadinho, uma plataforma aberta para registrar ocorrências ambientais em Brumadinho - MG. Para mais informações sobre o projeto, veja: https://github.com/cewebbr/mover-se_alerta-brumadinho.
+## General Information
+This repository contains the source code for the front-end of Brumadinho Alert, an open platform for reporting environmental incidents in Brumadinho, MG. For more information about the project, please visit: https://github.com/cewebbr/mover-se_alerta-brumadinho
 
 [![Software License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/cewebbr/mover-se_alerta-brumadinho)
 
-## Instalação e Execução
+## Installation and Execution
 
-### Tecnologias utilizadas
+### Technologies Used
 
 - [React](https://pt-br.reactjs.org/)
 
-### Pré-requisitos
+### Prerequisites
 
 - [npm](https://www.npmjs.com/)
 - [Git](https://git-scm.com)
 
-### Etapas para executar o projeto:
+### Steps to run the project:
 
-#### 1. No terminal
+#### 1. In the terminal
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/cewebbr/mover-se_alerta-brumadinho.git
+# Clone this repository
+$ git clone https://github.com/lucasvribeiro/alerta-brumadinho-web.git
 
-# Acesse a pasta do front-end do projeto no terminal
-$ cd mover-se_alerta-brumadinho/frontend
+# Create an `.env` file in the root of the project
 
-# Crie um arquivo `.env` na raiz do diretório /frontend
-
-# Instale as dependências
+# Install the dependencies
 $ npm install
 
 ```
 
-####  2. Configuração das variáveis de ambientes
+#### 2. Configuration of environment variables
 
-Abra o arquivo `.env` na raiz do diretório /frontend e configure as variáveis de ambiente
+Open the .env file in the root of the project and configure the environment variables
 
 ```bash
-# Endereço do back-end da aplicação (ex: <http://localhost:3001> ou a url do serviço onde o back-end está executando)
+# Application back-end address (e.g., <http://localhost:3001> or the service URL where the back-end is running)
 REACT_APP_BACKEND_URL=''
 
-# Url da API do Cloudinary onde serão hospedadas as imagens da aplicação (foto de perfil de usuário e imagens das denúncias)
+# Cloudinary API URL for hosting application images (user profile picture and report images)
 REACT_APP_CLOUDINARY_URL=''
 
-# API Key do Cloudinary
+# Cloudinary API Key
 REACT_APP_CLOUDINARY_API_KEY=''
 
-# Valor do upload preset do Cloudinary
+# Cloudinary upload preset value
 REACT_APP_CLOUDINARY_UPLOAD_PRESET=''
 ```
 
-####  3. Executando a aplicação
+####  3. Running the application
 ```bash
-# Execute a aplicação com o seguinte comando
+# Run the application with the following command
 $ npm start
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+# The server will start on port 3000 - access <http://localhost:3000>
 ```
 
-### Autores: [Lucas Vinicius Ribeiro](https://github.com/lucasvribeiro) e [Lucas Souza Santos](https://github.com/souzalucas).
+### Authors: [Lucas Vinicius Ribeiro](https://github.com/lucasvribeiro) e [Lucas Souza Santos](https://github.com/souzalucas).
