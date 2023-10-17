@@ -1,6 +1,6 @@
 <h1 align="center"><img src="https://i.ibb.co/JzDvNwN/AB-Capa.png" alt="Alerta Brumadinho" width="100%" height="auto"></h1>
 
-# Alerta Brumadinho - Solução Tecnológica para Denúncia de Crimes Ambientais em Brumadinho, Minas Gerais
+# Brumadinho Alert: A web application for reporting environmental crimes
 
 ## General Information
 This repository contains the source code for the front-end of Brumadinho Alert, an open platform for reporting environmental incidents in Brumadinho, MG. For more information about the project, please visit: https://github.com/cewebbr/mover-se_alerta-brumadinho
